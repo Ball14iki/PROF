@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1a162ec4029-9e238ee94545226": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "1",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\1\\Desktop\\1",
+				"url": "jdbc:sqlite:C:\\Users\\1\\Desktop\\1",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
